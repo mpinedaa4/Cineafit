@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEAFIT</title>
+    <link rel="stylesheet" href="sedes.css">
+</head>
+<body>
+    <header>
+        <h1>CINEAFIT - SEDES</h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="main.html" tabindex="1">Inicio</a></li>
+            <li><a href="clientes.html" tabindex="2">Clientes</a></li>
+            <li><a href="empleados.html" tabindex="3">Empleados</a></li>
+        </ol>
+    </nav>
+    <section>
+        <div id="form">
+            <div id="part1">
+                <label for="codigo_sede">Código de la sede: </label>
+                <input type="text" id="codigo_sede" tabindex="4">
+                <label for="direccion">Dirección: </label>
+                <input type="text" id="direccion" tabindex="6">
+            </div>
+            <div id="part2">
+                <label for="localidad">Localidad: </label>
+                <input type="text" id="localidad" tabindex="5">
+                <label for="numero_salas">Número de salas: </label>
+                <input type="text" id="numero_salas" tabindex="7">
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="btnConsultarTodos">Consultar todos</button>
+            <button id="btnConsultar">Consultar</button>
+            <button id="btnIngresar">Ingresar</button>
+            <button id="btnModificar">Modificar</button>
+            <button id="btnEliminar">Eliminar</button>
+            <button id="btnLimpiar">Limpiar</button>
+        </div>
+        <div id="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código Sede</th>
+                        <th>Localidad</th>
+                        <th>Dirección</th>
+                        <th>Número de salas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>Por: Santiago Manco, Santiago Álvarez y Mateo Pineda</p>
+    </footer>
+    <script src="sedes.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEAFIT</title>
+    <link rel="stylesheet" href="clientes.css">
+</head>
+<body>
+    <header>
+        <h1>CINEAFIT - CLIENTES</h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="main.html" tabindex="1"><!--<img src="home.png" alt="Icono Home">-->Inicio</a></li>
+            <li><a href="empleados.html" tabindex="2"><!--<img src="group.png" alt="Icono Empleados">-->Empleados</a></li>
+            <li><a href="sedes.html" tabindex="3">Sedes</a></li>
+        </ol>
+    </nav>
+    <section>
+        <div id="form">
+            <div id="part1">
+                <label for="ID">ID: </label>
+                <input type="text" id="ID" tabindex="4">
+                <label for="segundo_nombre">Segundo nombre: </label>
+                <input type="text" id="segundo_nombre" tabindex="6">
+                <label for="segundo_apellido">Segundo apellido: </label>
+                <input type="text" id="segundo_apellido" tabindex="8">
+                <label for="cliente_vip">¿Es cliente VIP? </label>
+                <input type="text" id="cliente_vip" tabindex="10">
+            </div>
+            <div id="part2">
+                <label for="primer_nombre">Primer nombre: </label>
+                <input type="text" id="primer_nombre" tabindex="5">
+                <label for="primer_apellido">Primer apellido: </label>
+                <input type="text" id="primer_apellido" tabindex="7">
+                <label for="direccion">Dirección: </label>
+                <input type="text" id="direccion" tabindex="9">
+                <label for="correo">Correo electrónico: </label>
+                <input type="text" id="correo" tabindex="11">
+            </div>
+            <div id="part3">
+                
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="btnConsultarTodos">Consultar todos</button>
+            <button id="btnConsultar">Consultar</button>
+            <button id="btnIngresar">Ingresar</button>
+            <button id="btnModificar">Modificar</button>
+            <button id="btnEliminar">Eliminar</button>
+            <button id="btnVIP">¿Es VIP?</button>
+            <button id="btnLimpiar">Limpiar</button>
+        </div>
+        <div id="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Primer nombre</th>
+                        <th>Segundo nombre</th>
+                        <th>Primer apellido</th>
+                        <th>Segundo apellido</th>
+                        <th>Dirección</th>
+                        <th>Cliente VIP</th>
+                        <th>Correo electrónico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>Por: Santiago Manco, Santiago Álvarez y Mateo Pineda</p>
+    </footer>
+    <script src="clientes.js"></script>
+</body>
+</html>
